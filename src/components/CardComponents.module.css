@@ -1,0 +1,141 @@
+.page{
+    width: 100%;
+    height: fit-content;
+    min-height: 100px;
+}
+.heading{
+    color: wheat;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.card{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 18rem);
+    column-gap: 8rem;
+    row-gap: 4rem;
+    
+    
+}
+.single_cards{
+    text-align: center;
+background: rgba(255, 255, 255, 0.13);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.9px);
+-webkit-backdrop-filter: blur(3.9px);
+border: 1px solid rgba(255, 255, 255, 0.29);
+}
+.name{
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    align-self: center;
+}
+.add{
+    margin-bottom: 3rem;
+    background-color: white;
+  border: 0;
+  color: #0F0D3F;
+  opacity: 0.8;
+  font-weight: bold;
+}
+.move{
+    position: relative;
+    margin-top: 1rem;
+    background: transparent;
+    border: 1.15429px solid white;
+}
+.tags{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 15px auto;
+  gap: 15px;
+}
+ .tag{
+    
+  
+  border-radius: 25px;
+
+  border: 1.15429px solid white;
+  border-radius: 10px;
+  background: transparent;
+  width: 130px;
+  color: white;
+  font-weight: bold;
+  height: 4.3vh;
+  opacity: 0.8;
+  transition: transform 0.5s;
+  font-size: 14px;
+}
+.tags .tag.active,
+.tags .tag:hover {
+  background-color: white;
+  border: 0;
+  color: #0F0D3F;
+}
+.card_buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.bucket{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content;
+    min-width: 4rem;
+    opacity: 0.6;
+    background-color: white;
+  color: #0F0D3F;
+}
+.dropdown{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    background-color: #ffffff;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+.history{
+display: flex;
+gap: 10rem;
+}
+.history_bucket{
+    align-self: center;
+    position:static;
+    transform: none;
+}
+.history_link{
+    align-self: center;
+    position:static;
+    transform: none;
+    width: fit-content;
+}
+.history_header{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    color:white;
+    font-weight: bolder;
+    font-family: "Poppins",sans-serif;
+    font-size: 1.5rem;
+    opacity: 0.9;
+}

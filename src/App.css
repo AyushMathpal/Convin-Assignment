@@ -1,0 +1,33 @@
+body{
+  
+  background: url("../public/back.svg") ;
+  background-size: cover;
+}
+.ant-card .ant-card-head{
+  border:0;
+  
+}
+.ant-modal .ant-modal-content{
+  width: 40vw;
+  height: 50vh;
+  
+}
+.ant-modal .ant-modal-body{
+  height:35vh;
+}
+.ant-card{
+  background:transparent;
+  border: 0;
+  border-radius: 0;
+  height: 100%;
+  
+}
+.ant-card .ant-card-bordered{
+  /* From https://css.glass */
+background: rgba(255, 255, 255, 0.13);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.9px);
+-webkit-backdrop-filter: blur(3.9px);
+border: 1px solid rgba(255, 255, 255, 0.29);
+}
